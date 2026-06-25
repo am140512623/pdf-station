@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Dancing+Script:wght@400;700&family=Pacifico&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-caveat: "Caveat", cursive;
+  --font-dancing: "Dancing Script", cursive;
+  --font-pacifico: "Pacifico", cursive;
+}

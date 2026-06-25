@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#F0F4FF"/>
+  
+  <rect x="0" y="0" width="800" height="600" fill="#1A237E"/>
+  <!-- glow -->
+  <circle cx="400" cy="200" r="200" fill="#F44336" opacity="0.15"/>
+  <!-- giant triangle warning -->
+  <polygon points="400,40 660,440 140,440" fill="#F44336" stroke="#B71C1C" stroke-width="10"/>
+  <polygon points="400,90 620,410 180,410" fill="#FF5252"/>
+  <!-- ! inside -->
+  <rect x="382" y="160" width="36" height="160" rx="12" fill="white"/>
+  <circle cx="400" cy="375" r="22" fill="white"/>
+  <!-- flashing border effect -->
+  <polygon points="400,40 660,440 140,440" fill="none" stroke="#FF8A80" stroke-width="4" opacity="0.6"/>
+  <!-- computer below -->
+  <rect x="250" y="450" width="300" height="180" rx="16" fill="#263238"/>
+  <rect x="270" y="465" width="260" height="130" rx="8" fill="#0D0D0D"/>
+  <!-- screen shows error -->
+  <rect x="280" y="475" width="240" height="110" rx="5" fill="#B71C1C" opacity="0.3"/>
+  <text x="400" y="520" font-family="monospace" font-size="14" fill="#FF5252" text-anchor="middle">SYSTEM ERROR</text>
+  <text x="400" y="545" font-family="monospace" font-size="12" fill="#EF9A9A" text-anchor="middle">Code: 0x000FFFF</text>
+  <!-- stand -->
+  <rect x="370" y="628" width="60" height="30" rx="5" fill="#37474F"/>
+  <rect x="330" y="655" width="140" height="15" rx="6" fill="#546E7A"/>
+  <rect x="0" y="550" width="800" height="50" fill="#B71C1C" opacity="0.9"/>
+  <text x="400" y="582" font-family="Arial,sans-serif" font-size="22" fill="white" text-anchor="middle" font-weight="bold">0:21-0:24 · WARNING SIGN</text>
+
+</svg>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#F0F4FF"/>
+  
+  <rect x="0" y="0" width="800" height="600" fill="#FFF3E0"/>
+  <!-- calendar body -->
+  <rect x="100" y="80" width="600" height="440" rx="20" fill="white" stroke="#BDBDBD" stroke-width="6"/>
+  <!-- calendar header -->
+  <rect x="100" y="80" width="600" height="90" rx="20" fill="#E53935"/>
+  <rect x="100" y="130" width="600" height="40" fill="#E53935"/>
+  <text x="400" y="140" font-family="Arial Black,sans-serif" font-size="38" fill="white" text-anchor="middle">MARCH 2025</text>
+  <!-- day labels -->
+  <text x="157" y="202" font-family="Arial,sans-serif" font-size="18" fill="#757575" text-anchor="middle" font-weight="bold">SUN</text>
+  <text x="243" y="202" font-family="Arial,sans-serif" font-size="18" fill="#757575" text-anchor="middle" font-weight="bold">MON</text>
+  <text x="329" y="202" font-family="Arial,sans-serif" font-size="18" fill="#757575" text-anchor="middle" font-weight="bold">TUE</text>
+  <text x="415" y="202" font-family="Arial,sans-serif" font-size="18" fill="#757575" text-anchor="middle" font-weight="bold">WED</text>
+  <text x="501" y="202" font-family="Arial,sans-serif" font-size="18" fill="#757575" text-anchor="middle" font-weight="bold">THU</text>
+  <text x="587" y="202" font-family="Arial,sans-serif" font-size="18" fill="#757575" text-anchor="middle" font-weight="bold">FRI</text>
+  <text x="673" y="202" font-family="Arial,sans-serif" font-size="18" fill="#757575" text-anchor="middle" font-weight="bold">SAT</text>
+  <line x1="110" y1="210" x2="690" y2="210" stroke="#EEEEEE" stroke-width="2"/>
+  <!-- days grid - 5 rows x 7 cols -->
+  <text x="157" y="245" font-family="Arial,sans-serif" font-size="22" fill="#BDBDBD" text-anchor="middle"></text>
+  <text x="243" y="245" font-family="Arial,sans-serif" font-size="22" fill="#BDBDBD" text-anchor="middle"></text>
+  <text x="329" y="245" font-family="Arial,sans-serif" font-size="22" fill="#BDBDBD" text-anchor="middle"></text>
+  <text x="415" y="245" font-family="Arial,sans-serif" font-size="22" fill="#BDBDBD" text-anchor="middle"></text>
+  <text x="501" y="245" font-family="Arial,sans-serif" font-size="22" fill="#BDBDBD" text-anchor="middle"></text>
+  <text x="587" y="245" font-family="Arial,sans-serif" font-size="22" fill="#BDBDBD" text-anchor="middle"></text>
+  <circle cx="673" cy="237" r="22" fill="none" stroke="#F44336" stroke-width="5"/>
+    <text x="673" y="245" font-family="Arial,sans-serif" font-size="22" fill="#D32F2F" text-anchor="middle" font-weight="bold">1</text>
+  <circle cx="157" cy="297" r="22" fill="none" stroke="#F44336" stroke-width="5"/>
+    <text x="157" y="305" font-family="Arial,sans-serif" font-size="22" fill="#D32F2F" text-anchor="middle" font-weight="bold">2</text>
+  <circle cx="243" cy="297" r="22" fill="none" stroke="#F44336" stroke-width="5"/>
+    <text x="243" y="305" font-family="Arial,sans-serif" font-size="22" fill="#D32F2F" text-anchor="middle" font-weight="bold">3</text>
+  <circle cx="329" cy="297" r="22" fill="none" stroke="#F44336" stroke-width="5"/>
+    <text x="329" y="305" font-family="Arial,sans-serif" font-size="22" fill="#D32F2F" text-anchor="middle" font-weight="bold">4</text>
+  <circle cx="415" cy="297" r="22" fill="none" stroke="#F44336" stroke-width="5"/>
+    <text x="415" y="305" font-family="Arial,sans-serif" font-size="22" fill="#D32F2F" text-anchor="middle" font-weight="bold">5</text>
+  <circle cx="501" cy="297" r="22" fill="none" stroke="#F44336" stroke-width="5"/>
+    <text x="501" y="305" font-family="Arial,sans-serif" font-size="22" fill="#D32F2F" text-anchor="middle" font-weight="bold">6</text>
+  <circle cx="587" cy="297" r="22" fill="none" stroke="#F44336" stroke-width="5"/>
+    <text x="587" y="305" font-family="Arial,sans-serif" font-size="22" fill="#D32F2F" text-anchor="middle" font-weight="bold">7</text>
+  <circle cx="673" cy="297" r="22" fill="none" stroke="#F44336" stroke-width="5"/>
+    <text x="673" y="305" font-family="Arial,sans-serif" font-size="22" fill="#D32F2F" text-anchor="middle" font-weight="bold">8</text>
+  <circle cx="157" cy="357" r="22" fill="none" stroke="#F44336" stroke-width="5"/>
+    <text x="157" y="365" font-family="Arial,sans-serif" font-size="22" fill="#D32F2F" text-anchor="middle" font-weight="bold">9</text>
+  <circle cx="243" cy="357" r="22" fill="none" stroke="#F44336" stroke-width="5"/>
+    <text x="243" y="365" font-family="Arial,sans-serif" font-size="22" fill="#D32F2F" text-anchor="middle" font-weight="bold">10</text>
+  <circle cx="329" cy="357" r="22" fill="none" stroke="#F44336" stroke-width="5"/>
+    <text x="329" y="365" font-family="Arial,sans-serif" font-size="22" fill="#D32F2F" text-anchor="middle" font-weight="bold">11</text>
+  
+    <text x="415" y="365" font-family="Arial,sans-serif" font-size="22" fill="#424242" text-anchor="middle" font-weight="normal">12</text>
+  
+    <text x="501" y="365" font-family="Arial,sans-serif" font-size="22" fill="#424242" text-anchor="middle" font-weight="normal">13</text>
+  
+    <text x="587" y="365" font-family="Arial,sans-serif" font-size="22" fill="#424242" text-anchor="middle" font-weight="normal">14</text>
+  
+    <text x="673" y="365" font-family="Arial,sans-serif" font-size="22" fill="#424242" text-anchor="middle" font-weight="normal">15</text>
+  
+    <text x="157" y="425" font-family="Arial,sans-serif" font-size="22" fill="#424242" text-anchor="middle" font-weight="normal">16</text>
+  
+    <text x="243" y="425" font-family="Arial,sans-serif" font-size="22" fill="#424242" text-anchor="middle" font-weight="normal">17</text>
+  
+    <text x="329" y="425" font-family="Arial,sans-serif" font-size="22" fill="#424242" text-anchor="middle" font-weight="normal">18</text>
+  
+    <text x="415" y="425" font-family="Arial,sans-serif" font-size="22" fill="#424242" text-anchor="middle" font-weight="normal">19</text>
+  
+    <text x="501" y="425" font-family="Arial,sans-serif" font-size="22" fill="#424242" text-anchor="middle" font-weight="normal">20</text>
+  
+    <text x="587" y="425" font-family="Arial,sans-serif" font-size="22" fill="#424242" text-anchor="middle" font-weight="normal">21</text>
+  
+    <text x="673" y="425" font-family="Arial,sans-serif" font-size="22" fill="#424242" text-anchor="middle" font-weight="normal">22</text>
+  
+    <text x="157" y="485" font-family="Arial,sans-serif" font-size="22" fill="#424242" text-anchor="middle" font-weight="normal">23</text>
+  
+    <text x="243" y="485" font-family="Arial,sans-serif" font-size="22" fill="#424242" text-anchor="middle" font-weight="normal">24</text>
+  
+    <text x="329" y="485" font-family="Arial,sans-serif" font-size="22" fill="#424242" text-anchor="middle" font-weight="normal">25</text>
+  
+    <text x="415" y="485" font-family="Arial,sans-serif" font-size="22" fill="#424242" text-anchor="middle" font-weight="normal">26</text>
+  
+    <text x="501" y="485" font-family="Arial,sans-serif" font-size="22" fill="#424242" text-anchor="middle" font-weight="normal">27</text>
+  
+    <text x="587" y="485" font-family="Arial,sans-serif" font-size="22" fill="#424242" text-anchor="middle" font-weight="normal">28</text>
+  
+    <text x="673" y="485" font-family="Arial,sans-serif" font-size="22" fill="#424242" text-anchor="middle" font-weight="normal">29</text>
+  <!-- big red marker pen indication -->
+  <rect x="630" y="100" width="30" height="80" rx="10" fill="#F44336" transform="rotate(30,645,140)"/>
+  <rect x="642" y="168" width="6" height="16" rx="3" fill="#D32F2F" transform="rotate(30,645,176)"/>
+  <rect x="0" y="550" width="800" height="50" fill="#B71C1C" opacity="0.9"/>
+  <text x="400" y="582" font-family="Arial,sans-serif" font-size="22" fill="white" text-anchor="middle" font-weight="bold">0:36-0:39 · 11 DAYS CIRCLED</text>
+
+</svg>

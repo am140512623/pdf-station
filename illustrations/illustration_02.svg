@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#F0F4FF"/>
+  
+  <rect x="0" y="460" width="800" height="140" fill="#4CAF50"/>
+  <!-- pole -->
+  <rect x="390" y="160" width="20" height="280" rx="6" fill="#546E7A"/>
+  <!-- top pivot circle -->
+  <circle cx="400" cy="160" r="20" fill="#37474F"/>
+  <!-- base -->
+  <rect x="300" y="440" width="200" height="24" rx="8" fill="#37474F"/>
+  <!-- left arm -->
+  <rect x="140" y="195" width="260" height="18" rx="6" fill="#78909C"/>
+  <!-- right arm -->
+  <rect x="400" y="195" width="260" height="18" rx="6" fill="#78909C"/>
+  <!-- left pan -->
+  <ellipse cx="200" cy="320" rx="80" ry="18" fill="#90A4AE"/>
+  <rect x="120" y="212" width="6" height="110" fill="#B0BEC5"/>
+  <rect x="272" y="212" width="6" height="110" fill="#B0BEC5"/>
+  <!-- right pan -->
+  <ellipse cx="600" cy="320" rx="80" ry="18" fill="#90A4AE"/>
+  <rect x="522" y="212" width="6" height="110" fill="#B0BEC5"/>
+  <rect x="672" y="212" width="6" height="110" fill="#B0BEC5"/>
+  <!-- left house -->
+  <rect x="150" y="250" width="100" height="70" rx="4" fill="#EF5350"/>
+  <polygon points="150,250 200,200 250,250" fill="#C62828"/>
+  <rect x="185" y="285" width="28" height="35" rx="4" fill="#5D4037"/>
+  <rect x="158" y="255" width="24" height="20" rx="3" fill="#90CAF9"/>
+  <rect x="218" y="255" width="24" height="20" rx="3" fill="#90CAF9"/>
+  <!-- right house -->
+  <rect x="550" y="250" width="100" height="70" rx="4" fill="#EF5350"/>
+  <polygon points="550,250 600,200 650,250" fill="#C62828"/>
+  <rect x="585" y="285" width="28" height="35" rx="4" fill="#5D4037"/>
+  <rect x="558" y="255" width="24" height="20" rx="3" fill="#90CAF9"/>
+  <rect x="618" y="255" width="24" height="20" rx="3" fill="#90CAF9"/>
+  <!-- BALANCED label -->
+  <rect x="330" y="80" width="140" height="44" rx="10" fill="#43A047"/>
+  <text x="400" y="110" font-family="Arial,sans-serif" font-size="20" fill="white" text-anchor="middle" font-weight="bold">BALANCED</text>
+  <rect x="0" y="550" width="800" height="50" fill="#1A237E" opacity="0.85"/>
+  <text x="400" y="582" font-family="Arial,sans-serif" font-size="22" fill="white" text-anchor="middle" font-weight="bold">0:03-0:06 · BALANCED SCALES</text>
+
+</svg>

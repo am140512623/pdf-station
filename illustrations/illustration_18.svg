@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#F0F4FF"/>
+  
+  <rect x="0" y="0" width="800" height="600" fill="#FFF8E1"/>
+  <!-- ground -->
+  <rect x="0" y="470" width="800" height="130" fill="#8D6E63"/>
+  <ellipse cx="400" cy="470" rx="300" ry="30" fill="#A5D6A7"/>
+  <!-- tree trunk -->
+  <rect x="362" y="320" width="76" height="180" rx="16" fill="#5D4037"/>
+  <!-- roots -->
+  <path d="M 362 490 Q 320 510 290 500" stroke="#5D4037" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <path d="M 438 490 Q 480 510 510 500" stroke="#5D4037" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <!-- branch left -->
+  <path d="M 380 380 Q 280 340 220 300" stroke="#5D4037" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <!-- branch right -->
+  <path d="M 420 380 Q 520 340 580 300" stroke="#5D4037" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <!-- LEFT SIDE - green leaves (summer) -->
+  <circle cx="230" cy="240" r="100" fill="#43A047" opacity="0.95"/>
+  <circle cx="180" cy="280" r="70"  fill="#388E3C"/>
+  <circle cx="290" cy="270" r="80"  fill="#4CAF50"/>
+  <circle cx="240" cy="195" r="75"  fill="#2E7D32"/>
+  <circle cx="155" cy="220" r="55"  fill="#66BB6A"/>
+  <!-- RIGHT SIDE - autumn leaves -->
+  <circle cx="570" cy="240" r="100" fill="#FF6F00" opacity="0.95"/>
+  <circle cx="620" cy="280" r="70"  fill="#E65100"/>
+  <circle cx="510" cy="270" r="80"  fill="#FF8F00"/>
+  <circle cx="560" cy="195" r="75"  fill="#BF360C"/>
+  <circle cx="645" cy="220" r="55"  fill="#FF7043"/>
+  <!-- center blend -->
+  <circle cx="400" cy="250" r="90"  fill="#8BC34A" opacity="0.5"/>
+  <circle cx="400" cy="250" r="55"  fill="#FFA726" opacity="0.5"/>
+  <!-- falling autumn leaves (right side) -->
+  <ellipse cx="660" cy="370" rx="14" ry="9" fill="#FF7043" transform="rotate(30,660,370)"/>
+  <ellipse cx="620" cy="420" rx="12" ry="8" fill="#FF6F00" transform="rotate(-20,620,420)"/>
+  <ellipse cx="700" cy="400" rx="10" ry="7" fill="#E65100" transform="rotate(15,700,400)"/>
+  <ellipse cx="640" cy="450" rx="11" ry="7" fill="#FF8F00" transform="rotate(-35,640,450)"/>
+  <!-- SUMMER / AUTUMN labels -->
+  <rect x="100" y="50" width="180" height="44" rx="10" fill="#2E7D32"/>
+  <text x="190" y="80" font-family="Arial,sans-serif" font-size="22" fill="white" text-anchor="middle" font-weight="bold">SUMMER</text>
+  <rect x="520" y="50" width="180" height="44" rx="10" fill="#E65100"/>
+  <text x="610" y="80" font-family="Arial,sans-serif" font-size="22" fill="white" text-anchor="middle" font-weight="bold">AUTUMN</text>
+  <!-- arrow between -->
+  <line x1="295" y1="72" x2="505" y2="72" stroke="#795548" stroke-width="5"/>
+  <polygon points="510,72 495,64 495,80" fill="#795548"/>
+  <rect x="0" y="550" width="800" height="50" fill="#BF360C" opacity="0.9"/>
+  <text x="400" y="582" font-family="Arial,sans-serif" font-size="22" fill="white" text-anchor="middle" font-weight="bold">0:51-0:54 · SEASONS CHANGING</text>
+
+</svg>

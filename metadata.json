@@ -1,0 +1,6 @@
+{
+  "name": "PDF Station",
+  "description": "A powerful, client-side PDF manipulation tool to merge, split, and edit PDFs directly in your browser without uploading to a server.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

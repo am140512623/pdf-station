@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#F0F4FF"/>
+  
+  <rect x="0" y="0" width="800" height="600" fill="#EFEBE9"/>
+  <!-- dark storm background top -->
+  <rect x="0" y="0" width="800" height="300" fill="#546E7A" opacity="0.3"/>
+  <!-- wind lines -->
+  <line x1="50" y1="50" x2="246" y2="58" stroke="#90A4AE" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+  <line x1="87" y1="95" x2="377" y2="103" stroke="#90A4AE" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+  <line x1="124" y1="140" x2="232" y2="148" stroke="#90A4AE" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+  <line x1="161" y1="185" x2="410" y2="193" stroke="#90A4AE" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+  <line x1="198" y1="230" x2="366" y2="238" stroke="#90A4AE" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+  <line x1="235" y1="275" x2="530" y2="283" stroke="#90A4AE" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+  <line x1="272" y1="320" x2="534" y2="328" stroke="#90A4AE" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+  <line x1="309" y1="365" x2="451" y2="373" stroke="#90A4AE" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+  <line x1="346" y1="410" x2="446" y2="418" stroke="#90A4AE" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+  <line x1="383" y1="455" x2="663" y2="463" stroke="#90A4AE" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+  <line x1="420" y1="500" x2="608" y2="508" stroke="#90A4AE" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+  <line x1="457" y1="545" x2="610" y2="553" stroke="#90A4AE" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+  <!-- calendar on wall (old, worn) -->
+  <rect x="260" y="120" width="280" height="350" rx="10" fill="#EFEBE9" stroke="#BCAAA4" stroke-width="8"/>
+  <!-- torn at top -->
+  <path d="M 260 120 Q 280 110 300 118 Q 320 105 340 120 Q 360 110 380 120 Q 400 108 420 120 Q 440 110 460 118 Q 480 105 500 120 Q 520 115 540 120" fill="#D7CCC8" stroke="#BCAAA4" stroke-width="3"/>
+  <!-- nail hole -->
+  <circle cx="400" cy="130" r="6" fill="#8D6E63"/>
+  <!-- calendar header old -->
+  <rect x="268" y="128" width="264" height="60" rx="6" fill="#8D6E63"/>
+  <text x="400" y="168" font-family="Arial Black,sans-serif" font-size="26" fill="white" text-anchor="middle">2024</text>
+  <!-- remaining page on calendar -->
+  <rect x="270" y="195" width="260" height="260" rx="4" fill="white" opacity="0.8"/>
+  <text x="400" y="260" font-family="Arial Black,sans-serif" font-size="60" fill="#BCAAA4" text-anchor="middle">DEC</text>
+  <text x="400" y="340" font-family="Arial Black,sans-serif" font-size="90" fill="#D7CCC8" text-anchor="middle">31</text>
+  <!-- pages blowing away -->
+  <!-- page 1 - far right flying -->
+  <rect x="580" y="80"  width="160" height="130" rx="6" fill="white" opacity="0.9" stroke="#BCAAA4" stroke-width="3" transform="rotate(35,660,145)"/>
+  <text x="660" y="138" font-family="Arial,sans-serif" font-size="18" fill="#BDBDBD" text-anchor="middle" transform="rotate(35,660,145)">NOV</text>
+  <text x="660" y="170" font-family="Arial,sans-serif" font-size="40" fill="#E0E0E0" text-anchor="middle" transform="rotate(35,660,170)">30</text>
+  <!-- page 2 - upper right -->
+  <rect x="550" y="20"  width="140" height="110" rx="6" fill="white" opacity="0.75" stroke="#BCAAA4" stroke-width="3" transform="rotate(55,620,75)"/>
+  <text x="620" y="60"  font-family="Arial,sans-serif" font-size="15" fill="#BDBDBD" text-anchor="middle" transform="rotate(55,620,60)">OCT</text>
+  <text x="620" y="90"  font-family="Arial,sans-serif" font-size="34" fill="#E0E0E0" text-anchor="middle" transform="rotate(55,620,90)">31</text>
+  <!-- page 3 - upper area -->
+  <rect x="620" y="200" width="120" height="100" rx="6" fill="white" opacity="0.6" stroke="#BCAAA4" stroke-width="2" transform="rotate(20,680,250)"/>
+  <text x="680" y="260" font-family="Arial,sans-serif" font-size="30" fill="#E0E0E0" text-anchor="middle" transform="rotate(20,680,260)">SEP</text>
+  <!-- page 4 - very far upper right -->
+  <rect x="690" y="30"  width="90" height="75" rx="5" fill="white" opacity="0.5" stroke="#BCAAA4" stroke-width="2" transform="rotate(70,735,67)"/>
+  <!-- wind whoosh behind pages -->
+  <path d="M 540 200 Q 620 150 700 80" fill="none" stroke="#B0BEC5" stroke-width="6" stroke-dasharray="20,10" opacity="0.6"/>
+  <path d="M 540 250 Q 640 200 740 130" fill="none" stroke="#B0BEC5" stroke-width="4" stroke-dasharray="15,8" opacity="0.4"/>
+  <rect x="0" y="550" width="800" height="50" fill="#4E342E" opacity="0.9"/>
+  <text x="400" y="582" font-family="Arial,sans-serif" font-size="22" fill="white" text-anchor="middle" font-weight="bold">0:57-1:00 · PAGES BLOWING AWAY</text>
+
+</svg>

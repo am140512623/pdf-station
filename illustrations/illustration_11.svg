@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#F0F4FF"/>
+  
+  <rect x="0" y="0" width="800" height="600" fill="#E8EAF6"/>
+  <!-- wooden floor -->
+  <rect x="0" y="460" width="800" height="140" fill="#8D6E63"/>
+  <line x1="0" y1="480" x2="800" y2="480" stroke="#795548" stroke-width="3"/>
+  <line x1="0" y1="510" x2="800" y2="510" stroke="#795548" stroke-width="2"/>
+  <line x1="200" y1="460" x2="200" y2="600" stroke="#795548" stroke-width="2"/>
+  <line x1="500" y1="460" x2="500" y2="600" stroke="#795548" stroke-width="2"/>
+  <!-- person sitting cross-legged -->
+  <!-- body -->
+  <ellipse cx="400" cy="420" rx="70" ry="45" fill="#1565C0"/>
+  <!-- crossed legs -->
+  <ellipse cx="360" cy="460" rx="50" ry="18" fill="#0D47A1" transform="rotate(20,360,460)"/>
+  <ellipse cx="440" cy="460" rx="50" ry="18" fill="#0D47A1" transform="rotate(-20,440,460)"/>
+  <!-- feet -->
+  <ellipse cx="320" cy="468" rx="22" ry="12" fill="#212121"/>
+  <ellipse cx="480" cy="468" rx="22" ry="12" fill="#212121"/>
+  <!-- head -->
+  <circle cx="400" cy="340" r="55" fill="#FFB74D"/>
+  <!-- eyes looking up -->
+  <circle cx="382" cy="328" r="10" fill="white"/>
+  <circle cx="418" cy="328" r="10" fill="white"/>
+  <circle cx="382" cy="324" r="5" fill="#1A237E"/>
+  <circle cx="418" cy="324" r="5" fill="#1A237E"/>
+  <!-- smile -->
+  <path d="M 380 356 Q 400 372 420 356" stroke="#795548" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- hands up catching -->
+  <ellipse cx="320" cy="400" rx="25" ry="18" fill="#FFB74D"/>
+  <ellipse cx="480" cy="400" rx="25" ry="18" fill="#FFB74D"/>
+  <!-- falling bills (various angles) -->
+  <rect x="150" y="80"  width="110" height="55" rx="5" fill="#4CAF50" transform="rotate(-20,205,107)"/>
+  <text x="205" y="115" font-family="Arial Black,sans-serif" font-size="20" fill="#1B5E20" text-anchor="middle" transform="rotate(-20,205,115)">$100</text>
+  <rect x="310" y="40"  width="110" height="55" rx="5" fill="#81C784" transform="rotate(10,365,67)"/>
+  <text x="365" y="75" font-family="Arial Black,sans-serif" font-size="20" fill="#1B5E20" text-anchor="middle" transform="rotate(10,365,75)">$50</text>
+  <rect x="500" y="60"  width="110" height="55" rx="5" fill="#4CAF50" transform="rotate(25,555,87)"/>
+  <text x="555" y="95" font-family="Arial Black,sans-serif" font-size="20" fill="#1B5E20" text-anchor="middle" transform="rotate(25,555,95)">$20</text>
+  <rect x="100" y="200" width="100" height="50" rx="5" fill="#A5D6A7" transform="rotate(-12,150,225)"/>
+  <text x="150" y="230" font-family="Arial Black,sans-serif" font-size="18" fill="#1B5E20" text-anchor="middle" transform="rotate(-12,150,230)">$100</text>
+  <rect x="560" y="180" width="100" height="50" rx="5" fill="#4CAF50" transform="rotate(15,610,205)"/>
+  <text x="610" y="210" font-family="Arial Black,sans-serif" font-size="18" fill="#1B5E20" text-anchor="middle" transform="rotate(15,610,210)">$50</text>
+  <!-- motion lines on bills -->
+  <line x1="205" y1="130" x2="210" y2="200" stroke="#43A047" stroke-width="3" stroke-dasharray="8,5"/>
+  <line x1="365" y1="90"  x2="380" y2="200" stroke="#43A047" stroke-width="3" stroke-dasharray="8,5"/>
+  <line x1="555" y1="110" x2="540" y2="200" stroke="#43A047" stroke-width="3" stroke-dasharray="8,5"/>
+  <rect x="0" y="550" width="800" height="50" fill="#1A237E" opacity="0.85"/>
+  <text x="400" y="582" font-family="Arial,sans-serif" font-size="22" fill="white" text-anchor="middle" font-weight="bold">0:30-0:33 · MONEY RAIN</text>
+
+</svg>

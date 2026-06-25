@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#F0F4FF"/>
+  
+  <rect x="0" y="0" width="800" height="600" fill="#E3F2FD"/>
+  <!-- ground -->
+  <rect x="0" y="470" width="800" height="130" fill="#A5D6A7"/>
+  <!-- cloud shape (question mark) -->
+  <ellipse cx="500" cy="140" rx="100" ry="70" fill="white" stroke="#90A4AE" stroke-width="5"/>
+  <ellipse cx="580" cy="160" rx="80" ry="60" fill="white" stroke="#90A4AE" stroke-width="5"/>
+  <ellipse cx="420" cy="160" rx="80" ry="60" fill="white" stroke="#90A4AE" stroke-width="5"/>
+  <ellipse cx="500" cy="200" rx="100" ry="65" fill="white" stroke="#90A4AE" stroke-width="5"/>
+  <!-- question mark in cloud -->
+  <text x="500" y="220" font-family="Arial Black,sans-serif" font-size="130" fill="#1565C0" text-anchor="middle">?</text>
+  <!-- thought bubbles connecting -->
+  <circle cx="380" cy="300" r="18" fill="white" stroke="#90A4AE" stroke-width="4"/>
+  <circle cx="350" cy="330" r="12" fill="white" stroke="#90A4AE" stroke-width="3"/>
+  <circle cx="325" cy="355" r="8"  fill="white" stroke="#90A4AE" stroke-width="3"/>
+  <!-- person looking up -->
+  <!-- body -->
+  <rect x="230" y="330" width="90" height="130" rx="12" fill="#E53935"/>
+  <!-- head -->
+  <circle cx="275" cy="295" r="55" fill="#FFB74D"/>
+  <!-- eyes looking up-right -->
+  <circle cx="258" cy="283" r="11" fill="white"/>
+  <circle cx="292" cy="283" r="11" fill="white"/>
+  <circle cx="261" cy="278" r="5" fill="#1A237E"/>
+  <circle cx="295" cy="278" r="5" fill="#1A237E"/>
+  <!-- eyebrows raised -->
+  <path d="M 247 267 Q 258 260 270 265" stroke="#795548" stroke-width="5" fill="none"/>
+  <path d="M 282 265 Q 293 258 305 264" stroke="#795548" stroke-width="5" fill="none"/>
+  <!-- open mouth wondering -->
+  <ellipse cx="275" cy="318" rx="12" ry="10" fill="#795548"/>
+  <!-- arm pointing at cloud -->
+  <rect x="270" y="350" width="130" height="22" rx="11" fill="#E53935" transform="rotate(-35,335,361)"/>
+  <circle cx="330" cy="320" r="18" fill="#FFB74D"/>
+  <!-- other arm -->
+  <rect x="160" y="360" width="70" height="22" rx="11" fill="#E53935"/>
+  <!-- legs -->
+  <rect x="238" y="455" width="30" height="22" rx="8" fill="#C62828"/>
+  <rect x="285" y="455" width="30" height="22" rx="8" fill="#C62828"/>
+  <rect x="228" y="472" width="46" height="14" rx="7" fill="#212121"/>
+  <rect x="279" y="472" width="46" height="14" rx="7" fill="#212121"/>
+  <rect x="0" y="550" width="800" height="50" fill="#1A237E" opacity="0.85"/>
+  <text x="400" y="582" font-family="Arial,sans-serif" font-size="22" fill="white" text-anchor="middle" font-weight="bold">0:33-0:36 · QUESTION CLOUD</text>
+
+</svg>

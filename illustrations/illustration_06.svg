@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#F0F4FF"/>
+  
+  <rect x="0" y="0" width="800" height="600" fill="#E8EAF6"/>
+  <!-- body -->
+  <rect x="330" y="350" width="140" height="160" rx="14" fill="#1565C0"/>
+  <!-- arms up holding head -->
+  <rect x="200" y="340" width="130" height="22" rx="11" fill="#1565C0"/>
+  <rect x="470" y="340" width="130" height="22" rx="11" fill="#1565C0"/>
+  <!-- hands -->
+  <circle cx="200" cy="340" r="20" fill="#FFB74D"/>
+  <circle cx="600" cy="340" r="20" fill="#FFB74D"/>
+  <!-- legs -->
+  <rect x="340" y="500" width="35" height="60" rx="10" fill="#0D47A1"/>
+  <rect x="425" y="500" width="35" height="60" rx="10" fill="#0D47A1"/>
+  <!-- shoes -->
+  <rect x="328" y="553" width="52" height="16" rx="8" fill="#212121"/>
+  <rect x="420" y="553" width="52" height="16" rx="8" fill="#212121"/>
+  <!-- head outline -->
+  <ellipse cx="400" cy="260" rx="110" ry="120" fill="#FFB74D"/>
+  <!-- brain area -->
+  <ellipse cx="400" cy="240" rx="80" ry="80" fill="white" opacity="0.9"/>
+  <!-- maze lines inside brain -->
+  <g stroke="#E53935" stroke-width="5" fill="none" stroke-linecap="square">
+    <polyline points="340,200 340,240 380,240 380,210 410,210 410,250 360,250 360,275 420,275 420,240 450,240 450,200"/>
+    <polyline points="340,275 320,275 320,230 360,230"/>
+    <polyline points="450,250 470,250 470,210 430,210"/>
+    <polyline points="380,275 380,295 440,295 440,270"/>
+  </g>
+  <!-- maze entry/exit arrows -->
+  <polygon points="328,200 340,192 340,208" fill="#43A047"/>
+  <polygon points="472,200 460,192 460,208" fill="#E53935"/>
+  <!-- eyes looking dizzy -->
+  <circle cx="370" cy="310" r="14" fill="white"/>
+  <circle cx="430" cy="310" r="14" fill="white"/>
+  <text x="370" y="317" font-family="Arial" font-size="16" text-anchor="middle">x</text>
+  <text x="430" y="317" font-family="Arial" font-size="16" text-anchor="middle">x</text>
+  <!-- sweat drops -->
+  <ellipse cx="305" cy="300" rx="8" ry="14" fill="#90CAF9"/>
+  <ellipse cx="495" cy="295" rx="7" ry="12" fill="#90CAF9"/>
+  <rect x="0" y="550" width="800" height="50" fill="#1A237E" opacity="0.85"/>
+  <text x="400" y="582" font-family="Arial,sans-serif" font-size="22" fill="white" text-anchor="middle" font-weight="bold">0:15-0:18 · MAZE MIND</text>
+
+</svg>
